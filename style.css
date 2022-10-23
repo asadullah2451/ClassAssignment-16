@@ -1,0 +1,105 @@
+/* defold */
+*{
+    padding: 0;
+    margin: 0;
+}
+.fullwebsite{
+    width: 1100px;
+    margin: auto;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/* header section */
+.header{
+    background: #101446;
+    height: 66px;
+}
+.logo a{
+    line-height: 66px;
+}
+.logo a img{
+    width: 80px;
+    margin-left: 20px;
+}
+.menu ul{
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    color: white;
+    line-height: 66px;
+    margin: 0 10px;
+}
+.banner{
+    background: url(./image/intro-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0 -70px;
+    height: 500px;
+}
+.container{
+    background: #BAC1F3;
+    box-sizing: border-box;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.container h1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.item{
+    width: 850px;
+    color: white;
+    margin-top: 100px;
+    display: inline-block;
+}
+.item h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.item p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.box img{
+    max-width: 100%;
+}
+.box p{
+    font-size: 15px;
+}
+/* About Us */
+.about{
+
+    padding: 50px;
+    background: #C2D4EA;
+}
+.about h1{
+    padding-bottom: 30px;
+}
+.aiytem1{
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+/* Contact Us */
+.contactus{
+    box-sizing: border-box;
+    padding: 30px;
+}
+.map img{
+    width: 330px;
+}
+form input{
+    width: 450px;
+}
+.footer{
+    background: #0062D3;
+    padding: 25px 00;
+}
+
+
